@@ -81,7 +81,7 @@ if app.KD_REMOTE_CALL:
 
 			constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(1)
 		else:
-			self.__SendUseItemPacket(slotIndex, slotWindow)
+			self.__SendUseItemPacket(slotIndex)
 
 # Add above
 		if app.KD_REMOTE_CALL:
