@@ -17,6 +17,7 @@
 #include "affect.h"
 #include "event.h"
 #include "shop_manager.h"
+#include "threeway_war.h"
 
 EVENTINFO(remote_call_end_info)
 {
@@ -91,6 +92,12 @@ bool CHARACTER::RemoteCall_Summon()
 	if (GetMapIndex() >= 10000)
 		return false;
 
+	if (GetWarMap())
+		return false;
+
+	if (CThreeWayWar::instance().IsSungZiMapIndex(GetMapIndex()))
+		return false;	
+
 	long x = GetX() + REMOTE_CALL_SPAWN_OFFSET;
 	long y = GetY();
 
@@ -161,7 +168,6 @@ void CHARACTER::RemoteCall_Command(BYTE bSubCmd)
 			return;
 	}
 }
-
 
 bool CHARACTER::RemoteCall_AddBuff(DWORD dwAffect, long lSec)
 {
