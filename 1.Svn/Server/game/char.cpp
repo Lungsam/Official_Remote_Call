@@ -11,6 +11,18 @@
 	m_bRemoteSafeboxRequest = false;
 #endif
 
+// Find 
+void CHARACTER::Destroy()
+{
+	..
+}
+
+/// Add
+#if defined(KD_REMOTE_CALL)
+	if (IsPC())
+		RemoteCall_Unsummon(false, false);
+#endif
+
 //Find in void CHARACTER::EncodeInsertPacket(LPENTITY entity)
 	ch = (LPCHARACTER) entity;
 
