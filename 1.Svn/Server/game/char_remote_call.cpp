@@ -136,6 +136,8 @@ void CHARACTER::RemoteCall_Unsummon(bool bFromEvent, bool bNotify)
 	else
 		event_cancel(&m_pkRemoteCallEvent);
 
+	m_bRemoteSafeboxRequest = false;
+	
 	if (!m_dwRemoteCallNPCVID)
 		return;
 
