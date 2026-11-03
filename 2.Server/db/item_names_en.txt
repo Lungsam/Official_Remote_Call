@@ -1,0 +1,4 @@
+72368	Storekeeper Enasir
+72369	Merchant Enasir
+72370	Storekeeper Enasir (t)
+72371	Merchant Enasir (t)

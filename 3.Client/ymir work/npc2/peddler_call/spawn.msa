@@ -1,0 +1,43 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\npc2\peddler_call\wait.gr2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      8
+        StartingTime         0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      7
+        StartingTime         2.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01_P R Finger01"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/npc2/peddler_call_spawn_01.mse"
+        EffectPosition       0.000000 0.000000 160.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         1.927007
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01_P R Finger01"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/npc2/peddler_call_spawn_02.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

@@ -1,0 +1,2 @@
+#define KD_REMOTE_CALL
+

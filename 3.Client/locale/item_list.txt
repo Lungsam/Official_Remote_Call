@@ -1,0 +1,4 @@
+72368	ETC	icon/item/72368.tga
+72369	ETC	icon/item/72369.tga
+72370	ETC	icon/item/72368.tga
+72371	ETC	icon/item/72369.tga

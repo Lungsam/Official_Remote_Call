@@ -1,0 +1,26 @@
+REMOTE_CALL_DURATION	«бгѕ…: %s
+REMOTE_CALL_MESSAGE_BUFF_ACTIVATED	нгяд «” ѕЏ«Ѕ %s.
+REMOTE_CALL_MESSAGE_BUFF_TIME_INCREASED	 г  гѕнѕ гѕ… ’б«Ќн…%s.
+REMOTE_CALL_MESSAGE_CANNOT_ADD_MORE	б« нгядя  гѕнѕ «бгѕ… √яЋ— гд –бя.
+REMOTE_CALL_MESSAGE_CANNOT_OPEN_WINDOW	б« нгяд «” ќѕ«г е–« √Ћд«Ѕ  дЁн– ≈ћ—«Ѕ ¬ќ—.
+REMOTE_CALL_MESSAGE_CANNOT_TAKEOUT_FROM_SAFEBOX	б« нгядя дёб «б»джѕ ≈бм ё«∆г… «бћ—ѕ гд е–е «бд«Ё–….
+REMOTE_CALL_MESSAGE_INVALID_PLACE	б« нгяд «” ќѕ«г е–« ед«.
+REMOTE_CALL_MESSAGE_OPEN_EXCEPTION	б« нгядя «бён«г »–бя Ў«бг« √д д«Ё–… √ќ—м гЁ жЌ….
+REMOTE_CALL_MESSAGE_SUMMON_COOLTIME	нгяд «” ѕЏ«ƒе г—… √ќ—м »Џѕ 10 Ћж«дт ЁёЎ.
+REMOTE_CALL_MESSAGE_SUMMON_END	%s «ќ Ём г—… √ќ—м.
+REMOTE_CALL_MESSAGE_SUMMON_FAIL	Ё‘б «б«” ѕЏ«Ѕ. н—ћм «бгЌ«жб… г—… √ќ—м »Џѕ ёбнб.
+REMOTE_CALL_MESSAGE_SUMMON_SUCCESS	%s гжћжѕ бгѕ… 3 ѕё«∆ё ж”нќ Ён Џдѕ гџ«ѕ— я ббќ—нЎ….
+REMOTE_CALL_NO_BUFF_1	нгядя «бж’жб ≈бм гќ“дя ж«б ћ«—… гд ќб«б «б«” ѕЏ«Ѕ.
+REMOTE_CALL_NO_BUFF_2	«‘ —ц ќѕг«  ≈д«”н— б«” ќѕ«г е–«.
+REMOTE_CALL_QUESTION_SUMMON_NPC	еб  —џ» Ён «” ѕЏ«Ѕ %sњ
+REMOTE_CALL_QUESTION_UMSUMMON_NPC	еб  —џ» Ён «»Џ«ѕ %sњ
+REMOTE_CALL_QUESTION_USE_ITEM	еб  —џ» Ён «” ќѕ«г ќѕг«  %sњ
+REMOTE_CALL_TITLE_REMOTE	≈д«”н— 
+REMOTE_CALL_TOOLTIP_BUFF_COUNT	 Џ“н“« я: %d
+REMOTE_CALL_TOOLTIP_BUFF_GENERAL_SHOP	‘Ќд
+REMOTE_CALL_TOOLTIP_BUFF_LEFT_TIME	(«бжё  «бг »ён: %s)
+REMOTE_CALL_TOOLTIP_BUFF_SAFEBOX	гќ“д
+REMOTE_CALL_TOOLTIP_INVALID_MAP	б« нгяд «” ѕЏ«Ѕ ≈д«”н— ед«.
+REMOTE_CALL_TOOLTIP_SUMMON_AVAILABLE	нгяд «” ѕЏ«Ѕ %s.
+REMOTE_CALL_TOOLTIP_SUMMON_ING	бёѕ Ќ÷ш—  %s. («бжё  «бг »ён: %s)
+REMOTE_CALL_TOOLTIP_SUMMON_NPC	«бќѕг«  «бг «Ќ… бя  Џ гѕ Џбм «б Џ“н“«  «б н  г бяе«.

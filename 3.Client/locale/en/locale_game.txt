@@ -1,0 +1,26 @@
+REMOTE_CALL_DURATION	Duration: %s
+REMOTE_CALL_MESSAGE_BUFF_ACTIVATED	%s can be summoned.
+REMOTE_CALL_MESSAGE_BUFF_TIME_INCREASED	The duration of %s has been extended.
+REMOTE_CALL_MESSAGE_CANNOT_ADD_MORE	You cannot extend the duration any more.
+REMOTE_CALL_MESSAGE_CANNOT_OPEN_WINDOW	This cannot be performed while another action is active.
+REMOTE_CALL_MESSAGE_CANNOT_TAKEOUT_FROM_SAFEBOX	You cannot drag items into your inventory from this window.
+REMOTE_CALL_MESSAGE_INVALID_PLACE	You cannot use that here.
+REMOTE_CALL_MESSAGE_OPEN_EXCEPTION	You cannot do that while another window is open.
+REMOTE_CALL_MESSAGE_SUMMON_COOLTIME	Can only be summoned again in 10 seconds.
+REMOTE_CALL_MESSAGE_SUMMON_END	%s has disappeared again.
+REMOTE_CALL_MESSAGE_SUMMON_FAIL	The summoning failed. Please try again shortly.
+REMOTE_CALL_MESSAGE_SUMMON_SUCCESS	%s is there for 3 minutes and disappears if you leave the map.
+REMOTE_CALL_NO_BUFF_1	You can access your storeroom and trade when you summon.
+REMOTE_CALL_NO_BUFF_2	Unlock abilities with Enasir to use that.
+REMOTE_CALL_QUESTION_SUMMON_NPC	Do you want to summon %s?
+REMOTE_CALL_QUESTION_UMSUMMON_NPC	Do you want to dismiss %s?
+REMOTE_CALL_QUESTION_USE_ITEM	Do you want to use %s's services?
+REMOTE_CALL_TITLE_REMOTE	Enasir's 
+REMOTE_CALL_TOOLTIP_BUFF_COUNT	Your Buffs: %d
+REMOTE_CALL_TOOLTIP_BUFF_GENERAL_SHOP	Shop
+REMOTE_CALL_TOOLTIP_BUFF_LEFT_TIME	(Time remaining: %s)
+REMOTE_CALL_TOOLTIP_BUFF_SAFEBOX	Storeroom
+REMOTE_CALL_TOOLTIP_INVALID_MAP	Enasir cannot be summoned here.
+REMOTE_CALL_TOOLTIP_SUMMON_AVAILABLE	%s can be summoned.
+REMOTE_CALL_TOOLTIP_SUMMON_ING	%s is being summoned. (Time remaining: %s)
+REMOTE_CALL_TOOLTIP_SUMMON_NPC	The services available to you depend on the buffs you have.

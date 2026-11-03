@@ -1,0 +1,4 @@
+72368	Storekeeper Enasir	Using this gives you a buff which allows you to summon Enasir and access your storeroom.	Can be extended up to a maximum of 1,000 days. |  Not tradeable
+72369	Merchant Enasir	Using this gives you a buff which allows you to summon Enasir and trade with him.	Can be extended up to a maximum of 1,000 days. |  Not tradeable
+72370	Storekeeper Enasir (t)	Using this gives you a buff which allows you to summon Enasir and access your storeroom.	Can be extended up to a maximum of 1,000 days. |  Tradeable
+72371	Merchant Enasir (t)	Using this gives you a buff which allows you to summon Enasir and trade with him.	Can be extended up to a maximum of 1,000 days. |  Tradeable

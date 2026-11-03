@@ -1,0 +1,62 @@
+--# * Author: Khaled / Lungsam
+define REMOTE_CALL_NPC 20874
+define AFFECT_REMOTE_CALL_BUFF_SAFEBOX 706
+define AFFECT_REMOTE_CALL_BUFF_GENERAL_SHOP 707
+
+quest remote_call begin
+	state start begin
+		when REMOTE_CALL_NPC.click begin
+			local has_safebox	= affect.has(AFFECT_REMOTE_CALL_BUFF_SAFEBOX)
+			local has_shop		= affect.has(AFFECT_REMOTE_CALL_BUFF_GENERAL_SHOP)
+
+			say_title("[LC;15727]")	-- Enasir
+			say("[LC;15717]")	-- You won't regret summoning me! I'm happy to[ENTER]provide you my services.[ENTER]But I only accept complaints to my face...
+
+			if not has_safebox and not has_shop then
+				say("[LC;15720]")	-- You don't have any buffs.
+				return
+			end
+
+			say("[LC;15724]")	-- You have the following buffs.
+
+			if has_safebox then
+				say_reward("[LC;15718]")	-- Storeroom
+			end
+			if has_shop then
+				say_reward("[LC;15719]")	-- Shop
+			end
+
+			local labels, actions = {}, {}
+
+			if has_safebox then
+				table.insert(labels, "[LC;15721]")	-- Open Storeroom
+				table.insert(actions, "safebox")
+			end
+			if has_shop then
+				table.insert(labels, "[LC;15722]")	-- Open Shop
+				table.insert(actions, "shop")
+			end
+
+			table.insert(labels, "[LC;15728]")	-- Return
+			table.insert(actions, "return")
+
+			table.insert(labels, "[LC;15723]")	-- Cancel
+			table.insert(actions, "cancel")
+
+			local s = select_table(labels)
+			local action = actions[s]
+
+			if action == "safebox" then
+				setskin(NOWINDOW)
+				game.open_safebox(true)
+			elseif action == "shop" then
+				setskin(NOWINDOW)
+				npc.open_shop()
+			elseif action == "return" then
+				setskin(NOWINDOW)
+				pc.remote_call_unsummon()
+			end
+			 ---  cancel //
+		end
+	end
+end
