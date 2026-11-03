@@ -11,11 +11,8 @@
 	m_bRemoteSafeboxRequest = false;
 #endif
 
-// Find 
-void CHARACTER::Destroy()
-{
-	..
-}
+// Find In void CHARACTER::Destroy()
+	CloseMyShop();
 
 /// Add
 #if defined(KD_REMOTE_CALL)
