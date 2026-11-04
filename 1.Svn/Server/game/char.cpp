@@ -46,7 +46,6 @@
 ///Add After
 #if defined(KD_REMOTE_CALL)
 	p.bIsRemoteCalled = IsRemoteSafeboxRequest() ? true : false;
-	SetRemoteSafeboxRequest(false);	
 #endif
 
 //Find in void CHARACTER::ChangeSafeboxSize(BYTE bSize)
@@ -55,9 +54,16 @@
 ///Add after
 #if defined(KD_REMOTE_CALL)
 	p.bIsRemoteCalled = IsRemoteSafeboxRequest() ? true : false;
-	SetRemoteSafeboxRequest(false);
 #endif
 
+// Find In void CHARACTER::CloseSafebox()
+	SetOpenSafebox(false);
+
+/// Add
+#if defined(ENABLE_REMOTE_CALL)
+	if (IsRemoteSafeboxRequest())
+		SetRemoteSafeboxRequest(false);
+#endif
 
 //Find in void CHARACTER::LoadMall(int iItemCount, TPlayerItem * pItems)
 	p.bSize = 3 * SAFEBOX_PAGE_SIZE;
