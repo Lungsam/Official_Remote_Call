@@ -135,19 +135,26 @@ void CHARACTER::RemoteCall_Unsummon(bool bFromEvent, bool bNotify)
 		m_pkRemoteCallEvent = nullptr;
 	else
 		event_cancel(&m_pkRemoteCallEvent);
-
-	m_bRemoteSafeboxRequest = false;
 	
 	if (!m_dwRemoteCallNPCVID)
 		return;
-
+	
 	LPCHARACTER npc = CHARACTER_MANAGER::instance().Find(m_dwRemoteCallNPCVID);
 	if (npc)
-		M2_DESTROY_CHARACTER(npc);
+	{
+		if (GetShopOwner() == npc)
+			CShopManager::instance().StopShopping(this);
 
+		if (GetSafebox() && IsRemoteSafeboxRequest())
+			CloseSafebox();
+
+		M2_DESTROY_CHARACTER(npc);
+	}
+	
 	m_dwRemoteCallNPCVID = 0;
 	m_dwRemoteCallEnd = 0;
 	m_dwRemoteCallCoolEnd = get_global_time() + REMOTE_CALL_COOLTIME_SEC;
+	m_bRemoteSafeboxRequest = false;
 
 	if (bNotify)
 		SendRemoteCall(this, REMOTE_CALL_GC_SUBHEADER_END, m_dwRemoteCallCoolEnd);
