@@ -1,0 +1,4 @@
+72368	Depocu Enasir	Bunu kullandýðýnda Enasir'i çaðýrýp depona eriþim saðlayan bir buff kazanýrsýn.	Maksimum 1000 güne kadar uzatýlabilir. |  Ticareti yapýlamaz
+72369	Tüccar Enasir	Bunu kullandýðýnda Enasir'i çaðýrýp onunla ticaret yapmaný saðlayan bir buff kazanýrsýn.	Maksimum 1000 güne kadar uzatýlabilir. |  Ticareti yapýlamaz
+72370	Depocu Enasir (h)	Bunu kullandýðýnda Enasir'i çaðýrýp depona eriþim saðlayan bir buff kazanýrsýn.	Maksimum 1000 güne kadar uzatýlabilir. |  Ticareti var
+72371	Tüccar Enasir (h)	Bunu kullandýðýnda Enasir'i çaðýrýp onunla ticaret yapmaný saðlayan bir buff kazanýrsýn.	Maksimum 1000 güne kadar uzatýlabilir. |  Ticareti var

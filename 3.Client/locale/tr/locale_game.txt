@@ -1,0 +1,26 @@
+REMOTE_CALL_DURATION	Süre: %s
+REMOTE_CALL_MESSAGE_BUFF_ACTIVATED	%s çaًr‎labilir.
+REMOTE_CALL_MESSAGE_BUFF_TIME_INCREASED	%s süresi uzat‎ld‎.
+REMOTE_CALL_MESSAGE_CANNOT_ADD_MORE	Süreyi daha fazla uzatamazs‎n.
+REMOTE_CALL_MESSAGE_CANNOT_OPEN_WINDOW	Bu, ba‏ka bir i‏lem s‎ras‎nda kullan‎lamaz.
+REMOTE_CALL_MESSAGE_CANNOT_TAKEOUT_FROM_SAFEBOX	Bu pencereden envanterine e‏ya ta‏‎yamazs‎n.
+REMOTE_CALL_MESSAGE_INVALID_PLACE	Bu, burada kullan‎lamaz.
+REMOTE_CALL_MESSAGE_OPEN_EXCEPTION	Ba‏ka bir pencere aç‎kken bunu yapamazs‎n.
+REMOTE_CALL_MESSAGE_SUMMON_COOLTIME	10 saniye sonra tekrar çaًr‎labilir.
+REMOTE_CALL_MESSAGE_SUMMON_END	%s tekrar kayboldu.
+REMOTE_CALL_MESSAGE_SUMMON_FAIL	اaًr‎ ba‏ar‎s‎z oldu. Lütfen daha sonra tekrar dene.
+REMOTE_CALL_MESSAGE_SUMMON_SUCCESS	%s 3 dakikal‎ً‎na gelir ve haritadan ayr‎ld‎ً‎nda kaybolur.
+REMOTE_CALL_NO_BUFF_1	Depo ve ticaret i‏lemlerine çaًr‎ yoluyla eri‏ebilirsin.
+REMOTE_CALL_NO_BUFF_2	Bundan yararlanmak için Enasir'in hizmetlerini edin.
+REMOTE_CALL_QUESTION_SUMMON_NPC	%s ki‏isini çaً‎r?
+REMOTE_CALL_QUESTION_UMSUMMON_NPC	%s ki‏isini gِnder?
+REMOTE_CALL_QUESTION_USE_ITEM	%s hizmetlerinden yararlanmak ister misin?
+REMOTE_CALL_TITLE_REMOTE	Enasir'in
+REMOTE_CALL_TOOLTIP_BUFF_COUNT	Bufflar‎n: %d
+REMOTE_CALL_TOOLTIP_BUFF_GENERAL_SHOP	Dükkan
+REMOTE_CALL_TOOLTIP_BUFF_LEFT_TIME	(Kalan süre: %s)
+REMOTE_CALL_TOOLTIP_BUFF_SAFEBOX	Depo
+REMOTE_CALL_TOOLTIP_INVALID_MAP	Enasir çaًr‎lam‎yor.
+REMOTE_CALL_TOOLTIP_SUMMON_AVAILABLE	%s çaًr‎labilir.
+REMOTE_CALL_TOOLTIP_SUMMON_ING	%s çaًr‎l‎yor. (Kalan süre: %s)
+REMOTE_CALL_TOOLTIP_SUMMON_NPC	Sana sunulan hizmetler, sahip olduًun bufflara baًl‎d‎r.
