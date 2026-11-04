@@ -60,7 +60,7 @@
 	SetOpenSafebox(false);
 
 /// Add
-#if defined(ENABLE_REMOTE_CALL)
+#if defined(KD_REMOTE_CALL)
 	if (IsRemoteSafeboxRequest())
 		SetRemoteSafeboxRequest(false);
 #endif
